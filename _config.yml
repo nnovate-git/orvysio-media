@@ -1,0 +1,14 @@
+# GitHub Pages builds this repo with Jekyll and publishes the result at https://media.orvysio.com.
+# The documentation stays in the repo (which is public on GitHub) but is not served on the site.
+# Any *.md file, in any folder, is already excluded, so name new docs *.md. Add any other doc file
+# below, then check that its URL on the site returns 404.
+exclude:
+  - README.md
+  - CLAUDE.md
+  - SETUP.md
+  - "*.md"
+  - "*.MD"
+  - "*.markdown"
+
+# No theme: without this, GitHub Pages adds its default theme's assets/css/style.css to the site.
+theme: null

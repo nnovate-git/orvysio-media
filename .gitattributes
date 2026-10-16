@@ -1,0 +1,7 @@
+# Images and PDFs are stored byte for byte, never with line-ending changes.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
