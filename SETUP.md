@@ -41,7 +41,9 @@ how to fix it if it stops working. Instructions for publishing files are in [CLA
    `application/pdf`, both identical to the files in the repo; `robots.txt` and the blank index pages
    were served; the certificate was valid.
 7. The docs were kept off the site with `_config.yml` (replacing the `.nojekyll` file), first checked
-   with a local build using the same builder GitHub uses.
+   with a local build using the same builder GitHub uses, then live: the docs return 404 and the
+   images are unchanged. That push also showed a push from a Claude session starts a Pages build.
+8. The test files in `posts/test/` were removed.
 
 ## Keeping it working
 
